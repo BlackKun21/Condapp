@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;    
+}
+
+body{
+    background: rgb(245, 241, 241);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edb877;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;     
+}
+
+.logo{
+    text-align: justify;
+    margin-right: 340px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Didot, serif;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.nome{
+    text-align: justify;
+    margin-right:500px;
+}
+
+.logo-img{
+    width: 50px;    
+    margin-right: 10px;    
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.left-sidebar p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.nav-left ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-left ul li img{
+    width: 28px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.search-box {
+    background: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.search-box img{
+    width: 18px;
+}
+
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 4%;
+}
+
+.left-sidebar{    
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    color: #626262;
+}
+
+.right-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;   
+    padding: 20px; 
+}
+
+.main-content{    
+    display: block;    
+    justify-content: space-between;
+    padding: .75px 2%;    
+}
+
+.left-sidebar a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #7a7676;
+    width: fit-content;
+}
+
+.left-sidebar a img{
+    width: 30px;
+    margin-right: 13px;
+    border-radius: 4px;
+}
+
+.left-sidebar{       
+    border-bottom: 1px solid #626262;    
+}
+
+.write-post-conteiner{
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px;
+    margin-top: 0;
+    border-bottom: 1px solid #626262;
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+
+.user-profile p{
+    margin-bottom: -5px;
+    font-weight: 500;
+    color: #626262;
+}
+
+.user-profile img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-profile small{
+    font-size: 12px;
+}
+
+.input-post-container{
+    padding-left: 55px;
+    padding-top: 20px;        
+}
+
+.input-post-container textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+}
+
+.add-link-post{
+    display: flex;
+    margin-top: 10px;
+}
+
+.add-link-post a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-right: 30px;
+    font-size: 13px;
+}
+
+.add-link-post a img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.post-b{
+    width: 120px;
+    height: 25px;
+    margin-left: 830px;
+    border-radius: 5px;
+    background-color: #e2d8d8;
+    color: #626262;       
+    user-select: none;
+    cursor: pointer;    
+    
+}
+
+.post-container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+    margin-left: 20px;     
+}
+
+.post-text{
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+.post-img{
+    width: 90%;
+    border-radius: 4px;    
+    margin-bottom: 5px;
+    padding-left: 40px;
+}
+
+.post-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-row a{
+    color: #9a9a9a;
+}
+
+.activity-icons img{
+    width: 18px;
+    margin-right: 10px;
+    padding-left: 40px;
+}
+
+.activity-icons div{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}  
+
